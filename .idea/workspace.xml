@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f616399-d494-4ade-a96d-e3460cc502d6" name="Changes" comment="" />
+    <list default="true" id="4f616399-d494-4ade-a96d-e3460cc502d6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/single_responsibility_principle/task_01_01/InputProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/single_responsibility_principle/task_01_01/Operation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/single_responsibility_principle/task_01_01/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/single_responsibility_principle/task_01_01/ViolationChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/single_responsibility_principle/task_01_02/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/single_responsibility_principle/task_02_02/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/single_responsibility_principle/task_01/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/single_responsibility_principle/task_01_01/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/single_responsibility_principle/task_02/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/single_responsibility_principle/task_02_01/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/single_responsibility_principle/task_01/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/single_responsibility_principle/task_02/App.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,14 +39,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/05_JavaDaily/HolczerBalazs/_01_algorithms_data_structures&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/05_Java/HolczerBalazs/_02_design_patterns"
   }
-}</component>
-  <component name="RunManager" selected="Application.pac_01_SOLID.single_responsibility_principle.task_01.App">
+}]]></component>
+  <component name="RunManager" selected="Application.pac_01_SOLID.single_responsibility_principle.task_02_01.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pac_01_SOLID.open_closed_principle.task_01.App" />
       <module name="_02_design_patterns" />
@@ -61,12 +73,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pac_01_SOLID.single_responsibility_principle.task_01.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pac_01_SOLID.single_responsibility_principle.task_01.App" />
+    <configuration name="pac_01_SOLID.single_responsibility_principle.task_01_01.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pac_01_SOLID.single_responsibility_principle.task_01_01.App" />
       <module name="_02_design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pac_01_SOLID.single_responsibility_principle.task_01.*" />
+          <option name="PATTERN" value="pac_01_SOLID.single_responsibility_principle.task_01_01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="pac_01_SOLID.single_responsibility_principle.task_02_01.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pac_01_SOLID.single_responsibility_principle.task_02_01.App" />
+      <module name="_02_design_patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pac_01_SOLID.single_responsibility_principle.task_02_01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,7 +101,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.pac_01_SOLID.single_responsibility_principle.task_01.App" />
+        <item itemvalue="Application.pac_01_SOLID.single_responsibility_principle.task_02_01.App" />
+        <item itemvalue="Application.pac_01_SOLID.single_responsibility_principle.task_01_01.App" />
         <item itemvalue="Application.pac_01_SOLID.open_closed_principle.task_02.App" />
         <item itemvalue="Application.App" />
       </list>
