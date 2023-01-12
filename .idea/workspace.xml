@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f616399-d494-4ade-a96d-e3460cc502d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_01_01/CSInterviewQuestions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_01_01/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_01_01/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_01_01/InterviewQuestionProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_01_01/InterviewQuestionProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_02/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_02/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_02/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_02/SortingAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_02/SortingProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_02/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_02/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/open_closed_principle/task_02_02/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/open_closed_principle/task_02_02/App.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +43,7 @@
     &quot;last_opened_file_path&quot;: &quot;D:/05_Java/HolczerBalazs/_02_design_patterns&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.pac_01_SOLID.open_closed_principle.task_02_02.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pac_01_SOLID.open_closed_principle.task_01_01.App" />
       <module name="_02_design_patterns" />
@@ -93,10 +98,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.pac_01_SOLID.open_closed_principle.task_02_02.App" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.pac_01_SOLID.single_responsibility_principle.task_02_01.App" />
         <item itemvalue="Application.pac_01_SOLID.single_responsibility_principle.task_01_01.App" />
-        <item itemvalue="Application.pac_01_SOLID.open_closed_principle.task_02_02.App" />
       </list>
     </recent_temporary>
   </component>
