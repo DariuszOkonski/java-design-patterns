@@ -1,9 +1,8 @@
 package pac_01_SOLID.open_closed_principle.task_02_02;
 
-public class SelectionSort implements SortingAlgorithm{
+public class SelectionSort implements Sort {
     @Override
-    public void sort() {
-        System.out.println("Selection sort is sorting the items...");
+    public void execute() {
+        System.out.println("Processing SelectionSort...");
     }
 }
-

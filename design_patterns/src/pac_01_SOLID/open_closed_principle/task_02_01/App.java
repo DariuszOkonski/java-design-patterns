@@ -1,11 +1,10 @@
-package pac_01_SOLID.open_closed_principle.task_02_02;
+package pac_01_SOLID.open_closed_principle.task_02_01;
 
 public class App {
     public static void main(String[] args) {
-        SorterProcessor.process(new MergeSort());
-        SorterProcessor.process(new SelectionSort());
-        SorterProcessor.process(new InsertionSort());
-        SorterProcessor.process(new BubbleSort());
+        SortingProcessor.execute(new MergeSort());
+        SortingProcessor.execute(new InsertionSort());
+        SortingProcessor.execute(new SelectionSort());
     }
 }
 
