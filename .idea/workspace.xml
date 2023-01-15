@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f616399-d494-4ade-a96d-e3460cc502d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_01/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_01/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_01/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_01/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_02/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_02/Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_02/SorterProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_02/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_02/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_02/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_02/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_02/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_02/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_02/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_02/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_02/SortingAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_01/SortingAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_02/SortingProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_01/SortingProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/open_closed_principle/task_02_02/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/open_closed_principle/task_02_02/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/open_closed_principle/task_02_02/InsertionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/open_closed_principle/task_02_02/InsertionSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/open_closed_principle/task_02_02/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/open_closed_principle/task_02_02/MergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/open_closed_principle/task_02_02/SelectionSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/open_closed_principle/task_02_02/SelectionSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/open_closed_principle/task_02_02/SortingAlgorithm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/open_closed_principle/task_02_02/SortingProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/single_responsibility_principle/task_01_02/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/single_responsibility_principle/task_01_02/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/single_responsibility_principle/task_01_02/Console.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/single_responsibility_principle/task_01_02/Console.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/single_responsibility_principle/task_01_02/Math.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/single_responsibility_principle/task_01_02/Pair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/single_responsibility_principle/task_01_02/Validation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/single_responsibility_principle/task_01_02/Validation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/single_responsibility_principle/task_02_02/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/single_responsibility_principle/task_02_02/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +37,7 @@
     &quot;last_opened_file_path&quot;: &quot;D:/05_Java/HolczerBalazs/_02_design_patterns&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.pac_01_SOLID.open_closed_principle.task_02_02.App">
+  <component name="RunManager" selected="Application.pac_01_SOLID.single_responsibility_principle.task_02_02.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pac_01_SOLID.open_closed_principle.task_01_01.App" />
       <module name="_02_design_patterns" />
@@ -113,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pac_01_SOLID.single_responsibility_principle.task_02_01.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pac_01_SOLID.single_responsibility_principle.task_02_01.App" />
+    <configuration name="pac_01_SOLID.single_responsibility_principle.task_02_02.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pac_01_SOLID.single_responsibility_principle.task_02_02.App" />
       <module name="_02_design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pac_01_SOLID.single_responsibility_principle.task_02_01.*" />
+          <option name="PATTERN" value="pac_01_SOLID.single_responsibility_principle.task_02_02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.pac_01_SOLID.single_responsibility_principle.task_02_02.App" />
         <item itemvalue="Application.pac_01_SOLID.open_closed_principle.task_02_02.App" />
         <item itemvalue="Application.pac_01_SOLID.single_responsibility_principle.task_01_02.App" />
         <item itemvalue="Application.pac_01_SOLID.open_closed_principle.task_02_01.App" />
         <item itemvalue="Application.App" />
-        <item itemvalue="Application.pac_01_SOLID.single_responsibility_principle.task_02_01.App" />
       </list>
     </recent_temporary>
   </component>

@@ -11,40 +11,71 @@ public class App {
     public static void main(String[] args) {
         // TODO - handle only methods, don't create any classes
 
-        System.out.println("Welcome to the Application!");
+        DisplayMessage("Welcome to the Application!");
+        DisplayMessage("Enter 5 valid integers in the range [0, 10]");
 
-        Scanner scanner = new Scanner(System.in);
+        var numbers = FillListWithNumbers();
 
+        SortNumbers(numbers);
+
+        DisplayList(numbers);
+    }
+    private static void SortNumbers(List<Integer> nums) {
+        Collections.sort(nums);
+    }
+
+    private static void DisplayList(List<Integer> nums) {
+        for(int num : nums) {
+            DisplayMessage(num + " ");
+        }
+    }
+
+    private static List<Integer> FillListWithNumbers() {
         List<Integer> nums = new ArrayList<>();
 
-        System.out.println("Enter 5 valid integers in the range [0, 10]");
-
         while (nums.size() < THRESHOLD){
-            String s = scanner.nextLine();
+            String s = GetInput();
 
-            try {
-                Integer.parseInt(s);
-            } catch (NumberFormatException nfe) {
-                System.out.println("Invalid! Try again");
+            if(!IsValid(s)) {
+                DisplayMessage("Invalid! Try again");
                 continue;
             }
 
             int num = Integer.parseInt(s);
 
-            if(num < 0|| num > 10) {
-                System.out.println("Invalid range! Try again!");
+            if(!IsInRange(num)) {
+                DisplayMessage("Invalid range! Try again!");
                 continue;
             }
 
             nums.add(num);
         }
 
-        scanner.close();
-
-        Collections.sort(nums);
-
-        for(int num : nums) {
-            System.out.println(num + " ");
+        return nums;
+    }
+    private static boolean IsInRange(Integer num) {
+        if(num < 0|| num > 10) {
+            return false;
         }
+        return true;
+    }
+
+    private static boolean IsValid(String str) {
+        try {
+            Integer.parseInt(str);
+        } catch (NumberFormatException nfe) {
+            return  false;
+        }
+        return true;
+    }
+    private static String GetInput() {
+        Scanner scanner = new Scanner(System.in);
+        String str = scanner.nextLine();
+//        scanner.close();
+
+        return str;
+    }
+    private static void DisplayMessage(String message) {
+        System.out.println(message);
     }
 }
