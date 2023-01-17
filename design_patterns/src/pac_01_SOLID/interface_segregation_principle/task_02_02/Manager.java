@@ -1,4 +1,4 @@
-package pac_01_SOLID.interface_segregation_principle.task_02_01;
+package pac_01_SOLID.interface_segregation_principle.task_02_02;
 
 public class Manager implements Employee, ManagersAndCEOs {
     void hire() {
