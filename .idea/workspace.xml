@@ -2,19 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f616399-d494-4ade-a96d-e3460cc502d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_01_01/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_01_01/BalancedTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_01_01/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_01_01/RotationTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_01_01/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_01_02/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_02_01/App.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_02_01/CEO.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_02_01/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_02_01/ICEO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_02_01/IEmployee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_02_01/IManager.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_02_01/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_02_01/ManagersAndCEOs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_02_01/Worker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_02_01/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_02_01/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/interface_segregation_principle/task_02_01/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/interface_segregation_principle/task_02_01/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/interface_segregation_principle/task_02_01/CEO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/interface_segregation_principle/task_02_01/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/interface_segregation_principle/task_02_01/Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/interface_segregation_principle/task_02_01/ManagersAndCEOs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/interface_segregation_principle/task_02_01/Worker.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,12 +76,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pac_01_SOLID.liskov_substitution_principle.task_01_01.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pac_01_SOLID.liskov_substitution_principle.task_01_01.App" />
+    <configuration name="pac_01_SOLID.interface_segregation_principle.task_02_02.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pac_01_SOLID.interface_segregation_principle.task_02_02.App" />
       <module name="_02_design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pac_01_SOLID.liskov_substitution_principle.task_01_01.*" />
+          <option name="PATTERN" value="pac_01_SOLID.interface_segregation_principle.task_02_02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pac_01_SOLID.open_closed_principle.task_02_02.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pac_01_SOLID.open_closed_principle.task_02_02.App" />
+    <configuration name="pac_01_SOLID.liskov_substitution_principle.task_01_01.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pac_01_SOLID.liskov_substitution_principle.task_01_01.App" />
       <module name="_02_design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pac_01_SOLID.open_closed_principle.task_02_02.*" />
+          <option name="PATTERN" value="pac_01_SOLID.liskov_substitution_principle.task_01_01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,10 +118,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.pac_01_SOLID.interface_segregation_principle.task_02_01.App" />
+        <item itemvalue="Application.pac_01_SOLID.interface_segregation_principle.task_02_02.App" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application.pac_01_SOLID.liskov_substitution_principle.task_01_01.App" />
         <item itemvalue="Application.pac_01_SOLID.single_responsibility_principle.task_02_02.App" />
-        <item itemvalue="Application.pac_01_SOLID.open_closed_principle.task_02_02.App" />
       </list>
     </recent_temporary>
   </component>
