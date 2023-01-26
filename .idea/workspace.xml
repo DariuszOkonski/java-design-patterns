@@ -2,14 +2,152 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f616399-d494-4ade-a96d-e3460cc502d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/dependency_inversion_principle/task_02_01/PayPal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/dependency_inversion_principle/task_02_01/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/dependency_inversion_principle/task_02_01/PaymentMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/dependency_inversion_principle/task_02_01/Payoneer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/dependency_inversion_principle/task_02_01/Skrill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/dependency_inversion_principle/task_02_01/WebStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_02_creational_design_patterns/SingletonPattern/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_02_creational_design_patterns/SingletonPattern/Database.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_02_creational_design_patterns/SingletonPattern/DatabaseConnector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/dependency_inversion_principle/task_02_01/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/dependency_inversion_principle/task_02_01/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/dependency_inversion_principle/task_01_01/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/dependency_inversion_principle/task_01_01/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/dependency_inversion_principle/task_01_01/DatabaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/dependency_inversion_principle/task_01_01/DatabaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/dependency_inversion_principle/task_01_01/IDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/dependency_inversion_principle/task_01_01/IDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/dependency_inversion_principle/task_01_01/MongoDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/dependency_inversion_principle/task_01_01/MongoDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/dependency_inversion_principle/task_01_01/MySQLDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/dependency_inversion_principle/task_01_01/MySQLDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/dependency_inversion_principle/task_01_01/OracleDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/dependency_inversion_principle/task_01_01/OracleDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/dependency_inversion_principle/task_02_01/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/dependency_inversion_principle/task_02_01/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/dependency_inversion_principle/task_02_01/PayPal.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/dependency_inversion_principle/task_02_01/PayPal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/dependency_inversion_principle/task_02_01/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/dependency_inversion_principle/task_02_01/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/dependency_inversion_principle/task_02_01/PaymentMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/dependency_inversion_principle/task_02_01/PaymentMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/dependency_inversion_principle/task_02_01/Payoneer.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/dependency_inversion_principle/task_02_01/Payoneer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/dependency_inversion_principle/task_02_01/Skrill.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/dependency_inversion_principle/task_02_01/Skrill.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/dependency_inversion_principle/task_02_01/WebStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/dependency_inversion_principle/task_02_01/WebStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_01_01/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/interface_segregation_principle/task_01_01/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_01_01/BalancedTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/interface_segregation_principle/task_01_01/BalancedTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_01_01/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/interface_segregation_principle/task_01_01/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_01_01/RotationTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/interface_segregation_principle/task_01_01/RotationTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_01_01/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/interface_segregation_principle/task_01_01/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_01_02/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/interface_segregation_principle/task_01_02/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_02_01/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/interface_segregation_principle/task_02_01/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_02_01/CEO.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/interface_segregation_principle/task_02_01/CEO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_02_01/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/interface_segregation_principle/task_02_01/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_02_01/ICEO.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/interface_segregation_principle/task_02_01/ICEO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_02_01/IEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/interface_segregation_principle/task_02_01/IEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_02_01/IManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/interface_segregation_principle/task_02_01/IManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_02_01/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/interface_segregation_principle/task_02_01/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_02_02/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/interface_segregation_principle/task_02_02/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_02_02/CEO.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/interface_segregation_principle/task_02_02/CEO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_02_02/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/interface_segregation_principle/task_02_02/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_02_02/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/interface_segregation_principle/task_02_02/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_02_02/ManagersAndCEOs.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/interface_segregation_principle/task_02_02/ManagersAndCEOs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/interface_segregation_principle/task_02_02/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/interface_segregation_principle/task_02_02/Worker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/liskov_substitution_principle/task_01_01/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/liskov_substitution_principle/task_01_01/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/liskov_substitution_principle/task_01_01/ElectricCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/liskov_substitution_principle/task_01_01/ElectricCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/liskov_substitution_principle/task_01_01/Fuel.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/liskov_substitution_principle/task_01_01/Fuel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/liskov_substitution_principle/task_01_01/PetrolCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/liskov_substitution_principle/task_01_01/PetrolCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/liskov_substitution_principle/task_01_01/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/liskov_substitution_principle/task_01_01/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/liskov_substitution_principle/task_01_02/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/liskov_substitution_principle/task_01_02/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_01_01/AIInterviewQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/open_closed_principle/task_01_01/AIInterviewQuestions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_01_01/AlgorithmsInterviewQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/open_closed_principle/task_01_01/AlgorithmsInterviewQuestions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_01_01/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/open_closed_principle/task_01_01/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_01_01/CSInterviewQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/open_closed_principle/task_01_01/CSInterviewQuestions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_01_01/FinanceInterviewQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/open_closed_principle/task_01_01/FinanceInterviewQuestions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_01_01/InterviewQuestion.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/open_closed_principle/task_01_01/InterviewQuestion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_01_01/InterviewQuestionProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/open_closed_principle/task_01_01/InterviewQuestionProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_01/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/open_closed_principle/task_02_01/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_01/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/open_closed_principle/task_02_01/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_01/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/open_closed_principle/task_02_01/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_01/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/open_closed_principle/task_02_01/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_01/SortingAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/open_closed_principle/task_02_01/SortingAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_01/SortingProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/open_closed_principle/task_02_01/SortingProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_02/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/open_closed_principle/task_02_02/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_02/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/open_closed_principle/task_02_02/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_02/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/open_closed_principle/task_02_02/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_02/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/open_closed_principle/task_02_02/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_02/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/open_closed_principle/task_02_02/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_02/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/open_closed_principle/task_02_02/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/open_closed_principle/task_02_02/SorterProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/open_closed_principle/task_02_02/SorterProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/single_responsibility_principle/task_01_01/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/single_responsibility_principle/task_01_01/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/single_responsibility_principle/task_01_01/InputProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/single_responsibility_principle/task_01_01/InputProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/single_responsibility_principle/task_01_01/Operation.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/single_responsibility_principle/task_01_01/Operation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/single_responsibility_principle/task_01_01/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/single_responsibility_principle/task_01_01/Pair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/single_responsibility_principle/task_01_01/ViolationChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/single_responsibility_principle/task_01_01/ViolationChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/single_responsibility_principle/task_01_02/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/single_responsibility_principle/task_01_02/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/single_responsibility_principle/task_01_02/Console.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/single_responsibility_principle/task_01_02/Console.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/single_responsibility_principle/task_01_02/NumberPair.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/single_responsibility_principle/task_01_02/NumberPair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/single_responsibility_principle/task_01_02/StringNumberPair.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/single_responsibility_principle/task_01_02/StringNumberPair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/single_responsibility_principle/task_01_02/Validation.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/single_responsibility_principle/task_01_02/Validation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/single_responsibility_principle/task_02_01/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/single_responsibility_principle/task_02_01/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/design_patterns/src/pac_01_SOLID/single_responsibility_principle/task_02_02/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_01_SOLID/single_responsibility_principle/task_02_02/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/dependency_inversion_principle/task_01_01/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/dependency_inversion_principle/task_01_01/DatabaseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/dependency_inversion_principle/task_01_01/IDatabase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/dependency_inversion_principle/task_01_01/MongoDatabase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/dependency_inversion_principle/task_01_01/MySQLDatabase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/dependency_inversion_principle/task_01_01/OracleDatabase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/dependency_inversion_principle/task_02_01/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/dependency_inversion_principle/task_02_01/PayPal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/dependency_inversion_principle/task_02_01/PaymentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/dependency_inversion_principle/task_02_01/PaymentMethod.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/dependency_inversion_principle/task_02_01/Payoneer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/dependency_inversion_principle/task_02_01/Skrill.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/dependency_inversion_principle/task_02_01/WebStore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/interface_segregation_principle/task_01_01/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/interface_segregation_principle/task_01_01/BalancedTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/interface_segregation_principle/task_01_01/BinarySearchTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/interface_segregation_principle/task_01_01/RotationTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/interface_segregation_principle/task_01_01/Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/interface_segregation_principle/task_01_02/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/interface_segregation_principle/task_02_01/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/interface_segregation_principle/task_02_01/CEO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/interface_segregation_principle/task_02_01/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/interface_segregation_principle/task_02_01/ICEO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/interface_segregation_principle/task_02_01/IEmployee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/interface_segregation_principle/task_02_01/IManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/interface_segregation_principle/task_02_01/Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/interface_segregation_principle/task_02_02/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/interface_segregation_principle/task_02_02/CEO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/interface_segregation_principle/task_02_02/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/interface_segregation_principle/task_02_02/Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/interface_segregation_principle/task_02_02/ManagersAndCEOs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/interface_segregation_principle/task_02_02/Worker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/liskov_substitution_principle/task_01_01/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/liskov_substitution_principle/task_01_01/ElectricCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/liskov_substitution_principle/task_01_01/Fuel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/liskov_substitution_principle/task_01_01/PetrolCar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/liskov_substitution_principle/task_01_01/Vehicle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/liskov_substitution_principle/task_01_02/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/open_closed_principle/task_01_01/AIInterviewQuestions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/open_closed_principle/task_01_01/AlgorithmsInterviewQuestions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/open_closed_principle/task_01_01/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/open_closed_principle/task_01_01/CSInterviewQuestions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/open_closed_principle/task_01_01/FinanceInterviewQuestions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/open_closed_principle/task_01_01/InterviewQuestion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/open_closed_principle/task_01_01/InterviewQuestionProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/open_closed_principle/task_02_01/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/open_closed_principle/task_02_01/InsertionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/open_closed_principle/task_02_01/MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/open_closed_principle/task_02_01/SelectionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/open_closed_principle/task_02_01/SortingAlgorithm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/open_closed_principle/task_02_01/SortingProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/open_closed_principle/task_02_02/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/open_closed_principle/task_02_02/BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/open_closed_principle/task_02_02/InsertionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/open_closed_principle/task_02_02/MergeSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/open_closed_principle/task_02_02/SelectionSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/open_closed_principle/task_02_02/Sort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/open_closed_principle/task_02_02/SorterProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/single_responsibility_principle/task_01_01/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/single_responsibility_principle/task_01_01/InputProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/single_responsibility_principle/task_01_01/Operation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/single_responsibility_principle/task_01_01/Pair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/single_responsibility_principle/task_01_01/ViolationChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/single_responsibility_principle/task_01_02/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/single_responsibility_principle/task_01_02/Console.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/single_responsibility_principle/task_01_02/NumberPair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/single_responsibility_principle/task_01_02/StringNumberPair.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/single_responsibility_principle/task_01_02/Validation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/single_responsibility_principle/task_02_01/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/_02_design_patterns/pac_01_SOLID/single_responsibility_principle/task_02_02/App.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +157,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -43,13 +181,13 @@
     &quot;last_opened_file_path&quot;: &quot;D:/05_Java/HolczerBalazs/_02_design_patterns&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.pac_01_SOLID.dependency_inversion_principle.task_02_01.App">
+  <component name="RunManager" selected="Application._01_DesignPatterns.pac_02_creational_design_patterns.SingletonPattern.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pac_01_SOLID.interface_segregation_principle.task_01_01.App" />
+      <option name="MAIN_CLASS_NAME" value="_01_DesignPatterns.pac_01_SOLID.dependency_inversion_principle.task_01_01.App" />
       <module name="_02_design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pac_01_SOLID.interface_segregation_principle.task_01_01.*" />
+          <option name="PATTERN" value="_01_DesignPatterns.pac_01_SOLID.dependency_inversion_principle.task_01_01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,12 +195,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pac_01_SOLID.dependency_inversion_principle.task_01_01.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pac_01_SOLID.dependency_inversion_principle.task_01_01.App" />
+    <configuration name="_01_DesignPatterns.pac_01_SOLID.dependency_inversion_principle.task_02_01.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_01_DesignPatterns.pac_01_SOLID.dependency_inversion_principle.task_02_01.App" />
       <module name="_02_design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pac_01_SOLID.dependency_inversion_principle.task_01_01.*" />
+          <option name="PATTERN" value="_01_DesignPatterns.pac_01_SOLID.dependency_inversion_principle.task_02_01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +208,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pac_01_SOLID.dependency_inversion_principle.task_02_01.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pac_01_SOLID.dependency_inversion_principle.task_02_01.App" />
+    <configuration name="_01_DesignPatterns.pac_01_SOLID.interface_segregation_principle.task_02_01.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_01_DesignPatterns.pac_01_SOLID.interface_segregation_principle.task_02_01.App" />
       <module name="_02_design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pac_01_SOLID.dependency_inversion_principle.task_02_01.*" />
+          <option name="PATTERN" value="_01_DesignPatterns.pac_01_SOLID.interface_segregation_principle.task_02_01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +221,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pac_01_SOLID.interface_segregation_principle.task_02_01.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pac_01_SOLID.interface_segregation_principle.task_02_01.App" />
+    <configuration name="_01_DesignPatterns.pac_01_SOLID.interface_segregation_principle.task_02_02.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_01_DesignPatterns.pac_01_SOLID.interface_segregation_principle.task_02_02.App" />
       <module name="_02_design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pac_01_SOLID.interface_segregation_principle.task_02_01.*" />
+          <option name="PATTERN" value="_01_DesignPatterns.pac_01_SOLID.interface_segregation_principle.task_02_02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +234,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="pac_01_SOLID.interface_segregation_principle.task_02_02.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pac_01_SOLID.interface_segregation_principle.task_02_02.App" />
+    <configuration name="_01_DesignPatterns.pac_02_creational_design_patterns.SingletonPattern.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_01_DesignPatterns.pac_02_creational_design_patterns.SingletonPattern.App" />
       <module name="_02_design_patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pac_01_SOLID.interface_segregation_principle.task_02_02.*" />
+          <option name="PATTERN" value="_01_DesignPatterns.pac_02_creational_design_patterns.SingletonPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +249,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.pac_01_SOLID.dependency_inversion_principle.task_02_01.App" />
+        <item itemvalue="Application._01_DesignPatterns.pac_02_creational_design_patterns.SingletonPattern.App" />
+        <item itemvalue="Application._01_DesignPatterns.pac_01_SOLID.dependency_inversion_principle.task_02_01.App" />
         <item itemvalue="Application.pac_01_SOLID.dependency_inversion_principle.task_01_01.App" />
-        <item itemvalue="Application.pac_01_SOLID.interface_segregation_principle.task_02_01.App" />
-        <item itemvalue="Application.pac_01_SOLID.interface_segregation_principle.task_02_02.App" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application._01_DesignPatterns.pac_01_SOLID.interface_segregation_principle.task_02_01.App" />
+        <item itemvalue="Application._01_DesignPatterns.pac_01_SOLID.interface_segregation_principle.task_02_02.App" />
       </list>
     </recent_temporary>
   </component>
