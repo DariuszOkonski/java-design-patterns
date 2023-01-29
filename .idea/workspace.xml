@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f616399-d494-4ade-a96d-e3460cc502d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/_02_DataStructures_01/_01_Arrays/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_02_creational_design_patterns/FactoryPattern/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_02_creational_design_patterns/FactoryPattern/AnimalFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_02_creational_design_patterns/FactoryPattern/AnimalType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_02_creational_design_patterns/FactoryPattern/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_02_creational_design_patterns/FactoryPattern/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_02_creational_design_patterns/FactoryPattern/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_02_creational_design_patterns/FactoryPattern/Lion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_02_creational_design_patterns/FactoryPattern/Tiger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,20 +44,12 @@
     &quot;last_opened_file_path&quot;: &quot;D:/05_Java/HolczerBalazs/_02_design_patterns&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application._02_DataStructures_01._01_Arrays.App">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_01_DesignPatterns.pac_01_SOLID.dependency_inversion_principle.task_01_01.App" />
-      <module name="_02_design_patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_01_DesignPatterns.pac_01_SOLID.dependency_inversion_principle.task_01_01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="_01_DesignPatterns.pac_02_creational_design_patterns.FactoryPattern" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application._01_DesignPatterns.pac_02_creational_design_patterns.FactoryPattern.App">
     <configuration name="_01_DesignPatterns.pac_01_SOLID.dependency_inversion_principle.task_02_01.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_01_DesignPatterns.pac_01_SOLID.dependency_inversion_principle.task_02_01.App" />
       <module name="_02_design_patterns" />
@@ -70,6 +69,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_01_DesignPatterns.pac_01_SOLID.interface_segregation_principle.task_02_01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_01_DesignPatterns.pac_02_creational_design_patterns.FactoryPattern.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_01_DesignPatterns.pac_02_creational_design_patterns.FactoryPattern.App" />
+      <module name="_02_design_patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_01_DesignPatterns.pac_02_creational_design_patterns.FactoryPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,10 +117,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._01_DesignPatterns.pac_02_creational_design_patterns.FactoryPattern.App" />
         <item itemvalue="Application._02_DataStructures_01._01_Arrays.App" />
         <item itemvalue="Application._01_DesignPatterns.pac_02_creational_design_patterns.SingletonPattern.App" />
         <item itemvalue="Application._01_DesignPatterns.pac_01_SOLID.dependency_inversion_principle.task_02_01.App" />
-        <item itemvalue="Application.pac_01_SOLID.dependency_inversion_principle.task_01_01.App" />
         <item itemvalue="Application._01_DesignPatterns.pac_01_SOLID.interface_segregation_principle.task_02_01.App" />
       </list>
     </recent_temporary>
