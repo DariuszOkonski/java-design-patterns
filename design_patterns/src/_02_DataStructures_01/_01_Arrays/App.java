@@ -3,6 +3,7 @@ package _02_DataStructures_01._01_Arrays;
 public class App {
     public static void main(String[] args) {
 
+
         int[] nums = new int[10];
 
         // random indexing: we can use the indexes of the array slots
