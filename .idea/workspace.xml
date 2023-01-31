@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f616399-d494-4ade-a96d-e3460cc502d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/_02_DataStructures_01/_01_Arrays/Test_04/IntegerReversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/_02_DataStructures_01/_01_Arrays/Test_05/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/_02_DataStructures_01/_01_Arrays/Test_05/DutchNationalFlagProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +43,7 @@
       <recent name="_01_DesignPatterns.pac_02_creational_design_patterns.FactoryPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._02_DataStructures_01._01_Arrays.Test_04.App">
+  <component name="RunManager" selected="Application._02_DataStructures_01._01_Arrays.Test_05.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_01_DesignPatterns.pac_02_creational_design_patterns.FactoryPattern.Task_01.App" />
       <module name="_02_design_patterns" />
@@ -61,19 +63,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="_01_DesignPatterns.pac_02_creational_design_patterns.FactoryPattern.Task_02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_02_DataStructures_01._01_Arrays.Test_02.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_02_DataStructures_01._01_Arrays.Test_02.App" />
-      <module name="_02_design_patterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_02_DataStructures_01._01_Arrays.Test_02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,13 +96,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_02_DataStructures_01._01_Arrays.Test_05.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_02_DataStructures_01._01_Arrays.Test_05.App" />
+      <module name="_02_design_patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_02_DataStructures_01._01_Arrays.Test_05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._02_DataStructures_01._01_Arrays.Test_05.App" />
         <item itemvalue="Application._02_DataStructures_01._01_Arrays.Test_04.App" />
         <item itemvalue="Application._01_DesignPatterns.pac_02_creational_design_patterns.FactoryPattern.Task_02.App" />
         <item itemvalue="Application.App" />
         <item itemvalue="Application._02_DataStructures_01._01_Arrays.Test_03.App" />
-        <item itemvalue="Application._02_DataStructures_01._01_Arrays.Test_02.App" />
       </list>
     </recent_temporary>
   </component>
