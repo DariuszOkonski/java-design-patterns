@@ -7,6 +7,13 @@ public class App {
 
         animal = AnimalFactory.getAnimal(AnimalType.DOG);
         animal.eat();
+
+        animal = AnimalFactory.getAnimal(AnimalType.LION);
+        animal.eat();
+
+        animal = AnimalFactory.getAnimal(AnimalType.TIGER);
+        animal.eat();
+
     }
 }
 
