@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f616399-d494-4ade-a96d-e3460cc502d6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/_02_DataStructures_01/_01_Arrays/Test_05/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_patterns/src/_02_DataStructures_01/_01_Arrays/Test_05/DutchNationalFlagProblem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_patterns/src/_01_DesignPatterns/pac_02_creational_design_patterns/BuilderPattern/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
